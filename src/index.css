@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@layer base {
+  html {
+    font-family: "Be Vietnam Pro", sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.btn-pink {
+  background-color: #e84949;
+  width: fit-content;
+  color: white;
+  /* padding: 0.7rem 2.1rem; */
+  box-shadow: 5px 5px 7px 0px #0000003f;
+  /* font-size: 1.12rem; */
+  cursor: pointer;
+  transition: all 0.4s;
+  /* font-weight: 500; */
+  /* border: solid 3px transparent; */
+  position: relative;
+  z-index: 1;
+
+}
+
+.btn-pink::before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.7s;
+}
+
+.btn-pink:hover::before {
+  transform: scaleX(1);
+
+}
+
+.btn-pink:hover {
+  border: solid 3px var(--bgOrange);
+  color: black;
+  border: none;
 }
