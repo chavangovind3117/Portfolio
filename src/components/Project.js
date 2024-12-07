@@ -4,6 +4,10 @@ import Html from "../assets/stack/HTML.png";
 import Css from "../assets/stack/CSS.png";
 import Tailwind from "../assets/stack/Tailwind.png";
 import Js from "../assets/stack/Javascript.svg";
+import ExpressJs from "../assets/stack/Express.png";
+import MongoDB from "../assets/stack/MongoDB.svg";
+import NodeJs from "../assets/stack/NodeJs.svg";
+import Redux from "../assets/stack/Redux.svg";
 import ReactPng from "../assets/stack/React.png";
 import image1 from "../assets/projects/Project1.png";
 import image2 from "../assets/projects/Project2.png";
@@ -22,7 +26,7 @@ const Project = () => {
     const cart3 = [Html, Css, Js];
     const cart4 = [Html, Css, Js];
     const cart5 = [Html, Css, Js, Tailwind, ReactPng];
-    const cart6 = [Html, Css, Js, Tailwind, ReactPng];
+    const cart6 = [Html, Css, Js, Tailwind, ReactPng, Redux, NodeJs, ExpressJs, MongoDB];
     // const cart3 = [Html, Css, Js, Tailwind, ReactPng];
 
     const descList = [
