@@ -11,6 +11,7 @@ import image3 from "../assets/projects/tic-tac-toe.png";
 // import image4 from "../assets/projects/weatherApp.jpg";
 import image4 from "../assets/projects/weatherapp.png";
 import image5 from "../assets/projects/Project5.png";
+import image6 from "../assets/projects/Studynotionth.png";
 
 
 
@@ -21,6 +22,7 @@ const Project = () => {
     const cart3 = [Html, Css, Js];
     const cart4 = [Html, Css, Js];
     const cart5 = [Html, Css, Js, Tailwind, ReactPng];
+    const cart6 = [Html, Css, Js, Tailwind, ReactPng];
     // const cart3 = [Html, Css, Js, Tailwind, ReactPng];
 
     const descList = [
@@ -63,6 +65,14 @@ const Project = () => {
             gitrepo: "https://github.com/chavangovind3117/Shopping-Cart-App",
             title: "Shopping Cart App",
             description: "A Website for adding items to cart , and shopping through cart , in this app redux is used to maintain the state of an item",
+        },
+        {
+            id: 6,
+            image: [image6],
+            href: "https://study-notion-frontend-57dmgqaxn-govind-chavans-projects.vercel.app/",
+            gitrepo: "https://github.com/chavangovind3117/StudyNotion-Hosting",
+            title: "StudyNotion",
+            description: "a feature-rich online learning platform enabling secure user authentication, course creation, and CRUD operations for courses and user data.",
         }
     ]
 
@@ -82,6 +92,8 @@ const Project = () => {
                     <Card skillIcon={cart4} desc={descList[3]}
                     />
                     <Card skillIcon={cart5} desc={descList[4]}
+                    />
+                    <Card skillIcon={cart6} desc={descList[5]}
                     />
 
                 </div>
