@@ -1,7 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import Button from './Button';
-import image from "../assets/user.png";
+import image from "../assets/professional7.png";
 import dots from "../assets/dots.png";
 
 const Hero = () => {
