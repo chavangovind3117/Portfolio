@@ -23,9 +23,12 @@ const SkilsSection = () => {
                 <div className='flex w-full lg:w-[50%] flex-col '>
                     <h1 className='text-orange text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-10 font-bold'><span className='text-3xl md:text-5xl lg:text-6xl xl:text-8xl font-normal'>M</span>e and <p>MyTech Stack</p></h1>
                     <div className='flex flex-col w-[95%] mt-4 text-gray text-xs md:text-sm xl:text-base font-normal tracking-wide'>
-                        <p className='my-2'>Hi Everyone My name is John Doe I am a Full Stack Web Developer I have been working for last 3 Years and Currently I am working with a Budding Startup in USA and a full Time Freelancer. Currently I am working on NextJs and Making Beautiful UI-UX are my fey features</p>
-                        <p className='my-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non doloremque aspernatur, maiores voluptatum minus laudantium? Perspiciatis accusamus minima porro dolores necessitatibus, magni dolorem et qui veniam nulla sequi molestiae maxime.</p>
-                        <p className='my-2'>orem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem quos ullam veritatis voluptates tenetur qui ipsa nulla culpa itaque?</p>
+                        <p className='my-2'>Hello! I'm Govind Chavan, a dedicated and passionate Full Stack Web Developer currently pursuing my B.Tech in Information Technology at M.S. Bidve Engineering College, Latur (2020–2024). With hands-on experience in developing dynamic, scalable, and user-friendly web applications, I excel in designing and implementing both front-end and back-end solutions.</p>
+                        {/* <p className='my-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non doloremque aspernatur, maiores voluptatum minus laudantium? Perspiciatis accusamus minima porro dolores necessitatibus, magni dolorem et qui veniam nulla sequi molestiae maxime.</p> */}
+                        <p className='my-2'>Creative Problem-Solving: I approach challenges with logical thinking and deliver effective solutions.
+                            Full-Stack Proficiency: Seamlessly bridge front-end aesthetics with back-end functionality.
+                            Project Execution: Skilled in deploying applications with secure authentication, CRUD operations, and optimized performance.
+                            Team Collaboration: Thrives in collaborative environments while managing independent projects efficiently.</p>
                     </div>
                 </div>
                 {/* Skills Icons */}
