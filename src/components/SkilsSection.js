@@ -25,10 +25,10 @@ const SkilsSection = () => {
                     <div className='flex flex-col w-[95%] mt-4 text-gray text-xs md:text-sm xl:text-base font-normal tracking-wide'>
                         <p className='my-2'>Hello! I'm Govind Chavan, a dedicated and passionate Full Stack Web Developer currently pursuing my B.Tech in Information Technology at M.S. Bidve Engineering College, Latur (2020–2024). With hands-on experience in developing dynamic, scalable, and user-friendly web applications, I excel in designing and implementing both front-end and back-end solutions.</p>
                         {/* <p className='my-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non doloremque aspernatur, maiores voluptatum minus laudantium? Perspiciatis accusamus minima porro dolores necessitatibus, magni dolorem et qui veniam nulla sequi molestiae maxime.</p> */}
-                        <p className='my-2'>Creative Problem-Solving: I approach challenges with logical thinking and deliver effective solutions.
-                            Full-Stack Proficiency: Seamlessly bridge front-end aesthetics with back-end functionality.
-                            Project Execution: Skilled in deploying applications with secure authentication, CRUD operations, and optimized performance.
-                            Team Collaboration: Thrives in collaborative environments while managing independent projects efficiently.</p>
+                        <p className='my-2'><b>Creative Problem-Solving:</b> I approach challenges with logical thinking and deliver effective solutions.
+                            <b>Full-Stack Proficiency:</b> Seamlessly bridge front-end aesthetics with back-end functionality.
+                            <b>Project Execution:</b> Skilled in deploying applications with secure authentication, CRUD operations, and optimized performance.
+                            <b>Team Collaboration:</b> Thrives in collaborative environments while managing independent projects efficiently.</p>
                     </div>
                 </div>
                 {/* Skills Icons */}
